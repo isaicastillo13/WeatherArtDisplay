@@ -1,0 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+}
+.Contenedor--Xl{
+    width: 1080px;
+    height: 1920px;
+    overflow: hidden;
+}
+
+.Contenedor--S{
+    width: 225px;
+    height: 337px;
+    overflow: hidden;
+    padding: 8px;
+}
+
+#Contenedor__videoClima--Xl,
+#Contenedor__videoClima--S{
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    z-index: -1;
+}
